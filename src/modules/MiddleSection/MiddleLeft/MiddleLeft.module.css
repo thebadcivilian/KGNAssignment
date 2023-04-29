@@ -1,0 +1,182 @@
+.left {
+  background-color: white;
+  padding: 30px;
+  margin: 14px;
+  /* border: 15px solid #fbf4f3; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mg {
+  background-color: #fbf4f3;
+}
+
+.topContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plusIcon {
+  font-size: 25px;
+  /* border: 5px solid #000; */
+  /* color: #000; */
+  border: 2px solid black;
+}
+
+.topText h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.topText h4 {
+  /* color: rgb(180, 177, 177); */
+  font-weight: 600;
+}
+
+.topText p {
+  font-weight: 600;
+  color: rgb(180, 178, 178);
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.middleContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.middleContainer h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.middleContainer .img {
+  display: flex;
+}
+
+.meetProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img img {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  margin-right: -20px;
+  border: 3px solid white;
+}
+
+.meeting h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.meeting {
+  padding-left: 20px;
+  border-left: 2px solid rgb(228, 224, 224);
+}
+
+.meeting h6 {
+  font-size: 10px;
+  color: rgb(95, 94, 94);
+}
+
+.meeting p {
+  font-size: 11px;
+  color: rgb(143, 141, 141);
+}
+
+.lowerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.upperImgBox {
+  background-image: linear-gradient(
+    to right,
+    rgb(231, 231, 194),
+    rgb(155, 170, 194)
+  );
+  height: 40px;
+  width: 40px;
+  width: auto;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.upperImgBox h5 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.upperImgBox p {
+  margin-top: 2px;
+  font-size: 11px;
+  color: rgb(73, 72, 72);
+}
+
+.upperImgBox button {
+  margin-top: 40px;
+  padding: 7px;
+  font-size: 10px;
+  background-color: unset;
+  border: 1px solid grey;
+}
+
+.lowerImgBox {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-rows: 2fr 2fr; */
+  /* align-items: center;
+  justify-content: center; */
+  gap: 20px;
+}
+
+.box2,
+.box3 {
+  height: 130px;
+  /* width: 40px; */
+  background-image: linear-gradient(to right, #ddd3cc, #f5d1b5);
+  /* height: fit-content; */
+  width: 100%;
+  padding: 25px;
+  border-radius: 2px;
+}
+
+.box3 h4,
+.box2 h4 {
+  margin: 0;
+}
+
+.box3_Icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+  margin-top: 7px;
+}
+
+.box3_Icon .boxIcon {
+  font-size: 17px;
+}
+
+.plusIcon {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  height: 17px;
+  width: 17px;
+}

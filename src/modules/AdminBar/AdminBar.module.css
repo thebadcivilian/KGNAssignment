@@ -1,0 +1,62 @@
+.adminBar {
+  /* background-color: aqua; */
+  margin: 20px;
+  /* border-left: 1px solid rgb(218, 213, 213); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 289px;
+}
+
+.img {
+  width: 70px;
+  border-radius: 50px;
+  height: 70px;
+}
+
+.name {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.designation {
+  margin: 0;
+  margin-top: 6px;
+  color: rgb(190, 187, 187);
+  font-size: 12px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.online {
+  height: 9px;
+  width: 9px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgb(85, 223, 85);
+  position: absolute;
+  top: 5px;
+  left: 56px;
+}
+
+.icons .iccc {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 50%;
+  padding: 4px;
+  height: 18px;
+  width: 18px;
+}

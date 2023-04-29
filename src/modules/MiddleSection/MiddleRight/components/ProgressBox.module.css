@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+}
+
+.text p {
+  font-size: 11px;
+  color: rgb(143, 141, 141);
+}
+.text h4 {
+  font-size: 12px;
+  margin-top: -5px;
+  margin-bottom: 3px;
+  /* font-weight: 700; */
+  /* color: rgb(143, 141, 141); */
+}
+
+.img img {
+  height: 35px;
+  width: 35px;
+}

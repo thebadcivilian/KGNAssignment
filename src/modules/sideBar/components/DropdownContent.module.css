@@ -1,0 +1,6 @@
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 47px;
+  margin-top: -10px;
+}

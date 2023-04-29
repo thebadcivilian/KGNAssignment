@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+  height: 35px;
+}
+
+.sq {
+  height: 10px;
+  width: 10px;
+}
+
+.text {
+  color: rgb(121, 120, 120);
+  font-weight: 600;
+}

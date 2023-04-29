@@ -1,0 +1,41 @@
+.navItems {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  height: 43px;
+  padding: 1px 20px;
+}
+.dropdown h4 {
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 110px;
+  padding: 1px 0px 10px 16px;
+}
+
+.dropdown .fontIcon {
+  /* font-size: 18px; */
+  font-size: 17px;
+}
+
+.container .logout {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+}
+
+.navRowContainer {
+  background-color: rgb(239 224 224);
+  border-radius: 2%;
+}

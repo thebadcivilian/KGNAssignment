@@ -1,0 +1,16 @@
+.NavRow {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  height: 43px;
+  padding: 1px 20px;
+}
+
+.NavRow h4 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.NavRow .navIcon {
+  font-size: 17px;
+}

@@ -1,0 +1,45 @@
+.lower {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+  /* background-color: blue; */
+  flex-direction: column;
+  margin: unset;
+  gap: 23px;
+}
+
+.lower p,
+.lower h4 {
+  margin: unset;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 17px;
+  column-gap: 85px;
+}
+
+.text p {
+  font-size: 10px;
+  margin-top: 3px;
+  color: rgb(155, 154, 154);
+  font-weight: 600;
+}
+
+.text h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 3px;
+  /* color: rgb(155, 154, 154); */
+}
+
+.icon {
+  color: grey;
+}
